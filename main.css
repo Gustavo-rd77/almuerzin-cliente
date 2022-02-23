@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#app{
+    background-color: #eee;
+    display: flex;
+    min-height: 100vh;
+
+}
+.container-list{
+    flex-grow: 1;
+    background-color: #fff;
+    margin: 5px;
+    margin-top: 0px;
+    align-self: flex-start;
+   
+}
+
+/* body div:first-child{
+    margin-left: 0px;
+} */
+#orders{
+    margin-right: 0px;
+}
+ul{
+    list-style: none;
+}
+#meals-list li{
+    cursor: pointer;
+}
+#submit{
+    width: 100px;
+    border: none;
+    background-color: lightseagreen;
+    padding: 10px 0px;
+    color: #fff;
+    margin: 15px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+}
+#submit:disabled{
+    background-color: lightslategray;
+}
+.selected{
+    background-color:#eee ;
+   
+}
+
+.container-login, .container-register{
+    width: 360px;
+    margin: 0px auto;
+    align-self: center;
+    background-color: #fff;
+    padding: 24px 16px;
+    border-radius: 16px;
+}
+.container-login h3{
+    margin-bottom: 8px;
+    text-align: center;
+}
+form div{
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 8px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border-radius: 16px;
+}
+form input{
+    width: 100%;
+    padding: 8px 6px;
+    border: none;
+    background-color: #eee;
+    border-radius: 22px;
+}
+
+form input[type = submit]{
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: #fff;
+}
+#register{
+    margin-top: 12px;
+    background: none;
+    border: none;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
